@@ -10,17 +10,18 @@
 - All used 'Shi' and 'Ci' data are from [chinese-poetry](https://github.com/chinese-poetry/chinese-poetry).
 - You can preprocess the raw data with `preprocessing.py`, 
 but we recommend simply use our [preprocessed data](https://drive.google.com/drive/folders/1daj7wzaDJPs9p80EaDXWcqCki-bMHPhr?usp=sharing) 
-and place under root directory.
+and place under `./data/`.
 
 ## Pretrained Models
 
 - The 'Sanwen' pretrained model is provided by [hughqiu](https://github.com/hughqiu "hughqiu") 
 and can be downloded [here](https://drive.google.com/drive/folders/1rJC4niJKMVwixUQkuL9k5teLRnEYTmUf?usp=sharing).
 - You can pretrain on 'Shi' data by yourself. Here we provide our [pretrained Shi model](https://drive.google.com/drive/folders/1qSVWn-NtzWW_XI8AuQx5TL1hk7UxLhZ_?usp=sharing).
+- The pretrained model should be placed under `./pretrained_model/`.
 
 ## Finetuned Models
 
-- The finetuned models on 'Ci' data will generated under `model`. Here we provide our [finetuned Ci model](https://drive.google.com/drive/folders/1f2WeXOoO6t7YPzMRPX9D_TsSQI0fXrkT?usp=sharing).
+- The finetuned models on 'Ci' data will generated under `./model/`. Here we provide our [finetuned Ci model](https://drive.google.com/drive/folders/1f2WeXOoO6t7YPzMRPX9D_TsSQI0fXrkT?usp=sharing).
 
 ## Training
 
@@ -28,7 +29,7 @@ and can be downloded [here](https://drive.google.com/drive/folders/1rJC4niJKMVwi
 ```
 sh train.sh
 ```
-- If you want to pretrain or train on other setting, please defin your own training bash file.
+- If you want to pretrain or train on other setting, please define your own training bash file.
 
 ## Generating
 
