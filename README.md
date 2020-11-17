@@ -15,7 +15,7 @@ and place under root directory.
 ## Pretrained Models
 
 - The 'Sanwen' pretrained model is provided by [hughqiu](https://github.com/hughqiu "hughqiu") 
-and can be downloded [here](https) ://drive.google.com/drive/folders/1rJC4niJKMVwixUQkuL9k5teLRnEYTmUf?usp=sharing "gDrive").
+and can be downloded [here](https://drive.google.com/drive/folders/1rJC4niJKMVwixUQkuL9k5teLRnEYTmUf?usp=sharing).
 - You can pretrain on 'Shi' data by yourself. Here we provide our [pretrained Shi model](https://drive.google.com/drive/folders/1qSVWn-NtzWW_XI8AuQx5TL1hk7UxLhZ_?usp=sharing).
 
 ## Finetuned Models
